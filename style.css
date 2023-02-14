@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f5f5f5;
+  font-family: "Gilroy-Regular", sans-serif;
+}
+
+.font-bold {
+  font-family: Gilroy-Bold;
+}
+
+.font-semibold {
+  font-family: Gilroy-SemiBold;
+}
+
+.font-regular {
+  font-family: Gilroy-Regular;
+}
+
+.font-medium {
+  font-family: Gilroy-Medium;
+}
+
+.text-theme-blue {
+  color: #272e3e;
+}
+
+.text-theme-orange {
+  color: #fd7349;
+}
+
+.text-theme-gray {
+  color: #858585;
+}
+
+.border-button-orange-outlined {
+  border: 2px #ea6640 solid;
+  color: #ea6640;
+}
+
+.testPortalButton {
+  color: #272e3e;
+  border: solid 2px #272e3e;
+}
+
+.landingPage {
+  font-family: Gilroy-Bold;
+}
+
+.landingPageText2 {
+  font-family: Gilroy-Medium;
+}
+
+.LandingPageButtons {
+  font-family: Gilroy-Regular;
+}
+
+.statsFontFamily {
+  font-family: Gilroy-Bold;
+}
+
+.roundded-2xl {
+  border-radius: 24px;
+}
+
+/* Line b/w text */
+.h1Line {
+  width: 100%;
+  text-align: center;
+  border-bottom: 2px solid #6981FD;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+
+.h1Line span {
+background: #f5f5f5;
+  padding: 0 10px;
+}
