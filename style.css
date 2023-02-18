@@ -3,9 +3,58 @@
   padding: 0;
 }
 
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url("gilroy/Gilroy-Regular.ttf");
+}
+
+/* 900 */
+@font-face {
+  font-family: "Gilroy-Heavy";
+  src: url("gilroy/Gilroy-Heavy.ttf");
+}
+
+/* 800 */
+@font-face {
+  font-family: "Gilroy-Black";
+  src: url("gilroy/Gilroy-Black.ttf");
+}
+
+/* 700 */
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url("gilroy/Gilroy-Bold.ttf");
+}
+
+/* 600 */
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url("gilroy/Gilroy-SemiBold.ttf");
+}
+
+/* 500 */
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("gilroy/Gilroy-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-UltraLight";
+  src: url("gilroy/Gilroy-UltraLight.ttf");
+}
+@font-face {
+  font-family: "Gilroy-Thin";
+  src: url("gilroy/Gilroy-Thin.ttf");
+}
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url("gilroy/Gilroy-Light.ttf");
+}
+
 body {
   background: #f5f5f5;
   font-family: "Gilroy-Regular", sans-serif;
+  overflow-x: hidden;
 }
 
 .font-bold {
@@ -136,11 +185,27 @@ body {
   transition: 0.3s;
 }
 
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #fd7349;
+}
+
+.owl-nav .disabled {
+  display: none;
+}
+
+.owl-prev {
+  display: none;
+}
+.disabled {
+  display: none !important;
+}
+
 /* Improve Responsive Ness */
 
 @media screen and (min-width: 1281px) {
   .whyarebest {
-    margin-left: 4rem; /* 64px */
-    margin-right: 4rem; /* 64px */
+    margin-left: 6rem; /* 64px */
+    margin-right: 6rem; /* 64px */
   }
 }
